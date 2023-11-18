@@ -6,6 +6,7 @@ import asyncio
 
 #importando Intents
 from discord.flags import Intents
+from tokenDisc import Token
 
 
 #importando os comandos do discord
@@ -35,5 +36,5 @@ class Bot:
 
 
         #pedindo para executar o bot, utilizando o token
-        TAPIOCA.run('MTE3MjMyNDY0NjE0NjgxODE1OQ.G-Y1Bm.K0bYqjOnnLUCPcUxnDDVZmr5yTMLPCEhwOClps')
+        TAPIOCA.run(Token.token)
 
